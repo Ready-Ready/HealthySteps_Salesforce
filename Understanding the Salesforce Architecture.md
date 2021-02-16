@@ -40,6 +40,8 @@ All of these standard and custom configurations, functionality, and code in your
 ### API
 
 API allows different pieces of software to connect to each other and exchange information. With API's you can connect your apps with other apps or software systems without knowing other details, the underlying technology takes care of the specifics of how the information is passed through the system.When a custom object or field is added, the platform automatically creates an API name to retrieve the metadata and data user needs.
+
 For example, we can use a contact's Name field in a bunch of places, like the Salesforce mobile app, a custom page, or even an email template. That's all possible because of the API name.
+
 The core of the API's power is that all of your data and metadata is API enabled. The API gives Salesforce a huge amount of flexibility. It lets to move beyond the normal idea of business software and build unique and creative solutions for your company.Every time you use Salesforce, whether you are using standard functionality or building a custom app, you’re interacting with the API.
 
