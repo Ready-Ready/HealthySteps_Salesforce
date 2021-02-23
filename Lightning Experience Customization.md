@@ -2,7 +2,7 @@
 
 ### Set Up Your Org
 
-1. Create a custom Object
+#### 1. Create a custom Object
 
 Salesforce provides standard objects and fields for common business record types, such as accounts, leads, and contacts. But every organization is unique and needs a different way to store the data. Custom objects and fields is a way to manage and store data to best fit their needs.
 
@@ -15,7 +15,7 @@ To create custom object follow these steps:
 * Select Launch New Custom Tab Wizard after saving this custom object
 * Leave the rest of the values as they are, and click Save
 
-2. Create a Custom Object Tab
+#### 2. Create a Custom Object Tab
 
 Custom object tab, makes it easy for user to access the object. This is an important step as without custom tab user cannot add a custom object to an app. If you have selected "Launch New Custom Tab Wizard after saving this custom object", you will be directed to New custom object tab page.
 
@@ -24,7 +24,7 @@ Custom object tab, makes it easy for user to access the object. This is an impor
 * Choose the custom apps that you want the new custom tab to be available in. Select to which users this tab will be visible and Deselect Include Tab, and select only which type of user this should be visible
 * Click Save
 
-3. Create Custom Fields
+#### 3. Create Custom Fields
 The new object needs some custom fields added so the user can enter some information related to this object. The first thing to consider when creating a custom field is figuring out what type of field you need. Below are the steps to create a field
 
 * Click Fields & Relationships, then click New
@@ -38,7 +38,7 @@ The new object needs some custom fields added so the user can enter some informa
 
 You can always go back and modify an existing custom field based on the needs
 
-4. Create Records
+#### 4. Create Records
 
 An object has  records to fill it out.The admin can enter the records into Salesforce. Inorder to create record follow these steps:
 
@@ -57,6 +57,7 @@ Phone:  "Example Phone"
 
 ### What Is a Lightning App?
 An app is a collection of items that work together to serve a particular function. In Lightning Experience, Lightning apps gives the users access to sets of objects, tabs, and other items all in one convenient bundle in the navigation bar.Lightning apps let to brand the apps with a custom color and logo. User can even include a utility bar and Lightning page tabs in your Lightning app. Members of the org can work more efficiently by easily switching between apps. Choose the object which are used frequently  for example: Accounts, events, and organizations.Each Lightning app has a navigation bar at the top of the page, that lets the users to :
+
 - Find what they need using item names for easy recognition
 - Complete actions and access recent records and lists with a single click
 - Personalize the navigation bar to suit the unique way they work
@@ -107,12 +108,12 @@ Classic apps that don't have a check mark in the Visible in Lightning column are
 
 Creating and editing a Lightning app is a cinch. As a admin, an app that puts everything about customer at their fingertips. In a few simple steps, user can give an app a name, set its primary color, upload a logo, specify which items appear in the app's navigation bar, and assign the app to user profiles. For creating new app follow these steps:
 
-1. From the Home tab in Setup, enter App in the Quick Find box, then select App Manager
-2. Click New Lightning App
-3. Walk through the Lightning App Wizard, creating an app with some parameters
-4. Click Save and Finish to exit the wizard
-5. From the App Launcher (App Launcher icon), find and select new app
-6. The new app will have the custom branding you gave it: a custom icon in the upper left and the custom color you assigned to it. Home is first in the navigation bar, it becomes the first page your users see when they open the app.
+- From the Home tab in Setup, enter App in the Quick Find box, then select App Manager
+- Click New Lightning App
+- Walk through the Lightning App Wizard, creating an app with some parameters
+- Click Save and Finish to exit the wizard
+- From the App Launcher (App Launcher icon), find and select new app
+- The new app will have the custom branding you gave it: a custom icon in the upper left and the custom color you assigned to it. Home is first in the navigation bar, it becomes the first page your users see when they open the app.
 
 ---
 
@@ -180,6 +181,18 @@ List view charts helps to visualize the list view data. For example if user want
 - Click save
 
 When  creating a list view chart for an object, the chart is associated with the object. The chart is available for any list view that has the permission to see object, except for the Recently Viewed list.
+
+---
+### Customize Record Highlights with Compact Layouts
+
+### What Do Compact Layouts Do?
+
+Compact layouts control which fields the users can see in the highlights panel at the top of a record. They also control the fields that appear in the expanded lookup card when user hover over a link in record details, and in the details section when an activity is expanded in the activity timeline.
+
+Compact layouts help in more productive work by presenting only the key record information so that work can be easily manage. For example, on account showing phone numbers and regions. With compact layouts, user can highlight whatever they need to see at a glance when looking at a record.
+
+With in page layouts, there are separate compact layouts for each object. Compact layouts also control how records is displayed in the Salesforce mobile app. If the company uses the Salesforce mobile app, users see what they need on mobile screens, where space is limited and quick recognition of records is important.
+
 
 
 
