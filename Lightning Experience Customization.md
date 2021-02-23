@@ -193,6 +193,32 @@ Compact layouts help in more productive work by presenting only the key record i
 
 With in page layouts, there are separate compact layouts for each object. Compact layouts also control how records is displayed in the Salesforce mobile app. If the company uses the Salesforce mobile app, users see what they need on mobile screens, where space is limited and quick recognition of records is important.
 
+---
+
+### Create a Compact Layout
+
+After creating a custom object, it is automatically assigned to a system default compact layout, which has only one field on it: the object name. Follow these steps to create a custom compact layout for the custom object:
+
+- First, find and open the compact layouts node in Setup for Custom Object
+- From Setup, click Object Manager
+- Click on custom obejct to open the object and then click Compact Layouts
+- You can see that the System Default compact layout is assigned as the primary compact layout right now.This can be changed
+- Click New
+- Give the compact layout a label: Object Name Compact Layout
+- Add the fields to the compact layout
+- Click Save
+- Set the compact layout that is created as the primary compact layout for the object. This step will make the compact layout the new default for the custom object.
+- Click Compact Layout Assignment and then Edit Assignment
+- Select custom object Compact Layout and click Save
+
+ To see the fields that are included in the primary compact layout for the custom object. 
+ 
+-  Create a object record type and assigns it to the profiles of the users on the team
+-  Then creates a different custom compact layout for the object, which includes the fields requested by the team
+-  Finally, edit the compact layout assignment for the  object to assign the new compact layout to the record type 
+-  Then design team members can see the highlights that they need
+
+---
 
 
 
