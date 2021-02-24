@@ -219,13 +219,93 @@ After creating a custom object, it is automatically assigned to a system default
 -  Then design team members can see the highlights that they need
 
 ---
+### Customize Record Details with Page Layouts
 
+### Page Layouts
 
+ Page Layouts can be used customize and personalize many things on a given object record page.There are two ways to customize a page in Lightning Experience. First user can customize a page's layout, or customize its contents. These are done with separate tools.
 
+Lightning pages are a collection of Lightning components arranged in regions on the page. User can customize the structure of the page and the position of its components with the Lightning App Builder.
 
+User can customize a page's contents, such as the fields and buttons that appear on the page, by using a different tool called the page layout editor. The page layout editor, also known as page layouts, helps you manage the content of pages in both our Classic UI and in Lightning Experience. Salesforce lightning allows dual-UI page layout editor tool to help customize page content in Lightning Experience as Lightning App Builder can't customize buttons, actions, and fields on pages.
 
+The page layout editor lets user to do following task:
 
+- Control which fields, lists of related records, and custom links users see
+- Customize the order that the fields appear in the page details
+- Determine whether fields are visible, read only, or required
+- Control which standard and custom buttons appear on records and related lists
+- Control which quick actions appear on the page
 
+Parts of a page that user can customize using page layouts, to create a personalized view for different teams and processes in your org
 
+- The Related tab contains related lists, which are lists of other records that are associated with the record user is viewing. For example, an account can have related contacts, opportunities, and other custom records. Related lists make it easy to find and manage related information.
+- Details tab shows information about a record. For example, a contact record detail page shows the name, address, owner, account, and other fields that are used to store information about the contact and other related records. 
+- To change the content of the fields on a related or detail page, user can click on Edit button 
 
+---
 
+### Customize the Fields in Your Record Details
+
+Customizing the fields on your record pages is easy, and usesr can do it with just a few clicks. The Enhanced Page Layout Editor is the go-to place for customizing a Lightning Experience record page's fields and related lists. It's called "enhanced" because there's an earlier version of it. 
+
+The page layout editor contains two basic parts: a palette on the upper portion of the screen and the record's page layout on the lower portion of the screen. The palette contains the basic elements—such as fields, actions, buttons, links, and related lists that user can add and arrange on your page. You can think of the upper part as the buffet table and the lower part as the plate of food being assembled.
+
+Follow these step to add or change the page layout editor for a object:
+
+- First, we need to find and open the object page layout
+- From Setup, click Object Manager
+- Click on the object to open the object and then click Page Layouts
+- Click object Layout
+- Now that object page layout is opened, make an update by adding or removing fields or changing the position of some of the fields
+- Drag the field off the page layout to remove it and back onto the palette
+- To mark a field as required, hover over the Mobile field, then click the wrench icon
+- Click Required and then click OK
+- Click Quick Save to save your changes without closing the page layout editor
+
+Meaning of some of the icon which can be marked for a field
+
+- Missing Value in Field icon―The field must have a value to save the record, but isn’t required on the page layout itself
+- Field Must be Included icon―The field must be included on the page layout because an admin configured the field as universally required or Salesforce automatically requires the field
+- Controlling Field icon―The field is a controlling field
+- Dependent Field icon―The field is a dependent field
+- Read-only icon―The field is read-only
+
+User can assign page layouts to different user profiles. For example, user can create a customized page layout for managers and another page layout for standard users. To change page layout assignments, click Page Layout Assignment and then click Edit Assignment.
+
+---
+
+### Create a Page Layout
+
+ To create an new page layout for some of the team member to the necessary field and related list information at their fingertips when they view the object records.Follow these steps
+
+- From Setup, click Object Manager
+- Click on the object, then Page Layouts
+- User will be able to see the system default object layout
+- Click New
+- User will have two options at this point. To create a page layout from scratch, or user can choose an existing page layout to clone
+- If user chooses to clone then, Select object Layout, Name the new layout 
+- Click Save
+- Scroll down to the Detail section, compare the two layouts fix the field order based on needs of the team
+- User can move the field to change its position and also remove some of the fields which are not required to them
+- Click Quick Save
+- To add related list, scroll down to the Related Lists section
+- In the palette, click Related Lists, and drag the object team needs in related list down to the Related Lists section. With the related list, team members can add the record and see a list of related object details associated with the record
+- Click Quick Save again, then click Yes.
+
+---
+
+### Assign a Page Layout to Profiles
+
+User wants it's team members  to see this new page layout. To do so user needs assign page layout to team's user profile so when they view Object  records, they will be able to see the revised view of the fields and the new related list. Follow these steps to assign the page layouts to a profile:
+
+- Click on Setup, click Object Manager | Object
+- Click Page Layouts, then Page Layout Assignment. User can see the list of profiles and the page layout assigned to each one
+- Click Edit Assignment
+- Select the Custom: selct the profile user wants to assign in Profile row
+- From the Page Layout To Use field, select new page Layout
+- Select the System Administrator row. Normally, user would select only the Custom: profile row, If the user is admin then select new profile too so that you can check out how the new page layout looks
+- From the Page Layout To Use field, select new Layout, then click Save
+- From the App Launcher, find and select object, then open an the record. Look at the Details tab. The new changes will be reflected there
+
+Using the page layout and page layout editor it make it easy for user to store and manage the important data by arranging fields in logical section.
