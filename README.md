@@ -36,3 +36,71 @@ After creating the user, look for **column H: Assigned Site(s)** in the user cre
 * Once done, the task card will be moved to the “Done” column.
 
 ---
+
+## List of Roles and Profile for active users in Salesforce org
+
+* Profile: Prenatal Navigation 
+    - Role : Prenatal Navigation Supervisor
+        - Active Users
+            * Jacqueline Pippens
+            * Mary Connor-Hill
+
+* Profile: HS Data Analyst (R/O)
+    - Role : Healthy Steps Staff
+        - Active Users
+            * Carli Miller
+
+* Profile: HS Specialist
+    - Role :
+        - Active Users
+            * Catherine Warner
+
+   - Role : HSS Specialist - Bri's Team
+    - Active Users
+        * Rickisha Parrott
+        * Maggie McGaw
+        * Meghann Wilkens
+        * Cara Medina
+        * Jenny Sellars
+
+    - Role : HSS Specialist - Lori's Team
+        - Active Users
+            * Quirina Vallejos
+            * Farkhanda Hussain
+            * Robin Hartzman
+            * Melissa Garrison
+            * Ilene Fisher
+            * Jennifer Byrd
+
+* Profile: HS Supervisor
+    - Role :
+        - Active Users
+            * Stella Lewallen
+            * Sebrina Cooke-Davis
+
+    - Role : HSS Supervisor - Bri
+        - Active Users
+            * Brianna White
+
+    - Role : HSS Supervisor - Lori
+        - Active Users
+            * Lori Pelletier
+
+* Profile: System Administrator
+    - Role : 
+        - Active Users
+            * Lonnie Richardson
+            * Tyler Toomes
+            * Karthik Dhakshanamoorthy
+            * Nicole Garcia
+            * Leonard Lawson
+            * Diana Peacock
+
+    - Role : Healthy Steps Staff
+        - Active Users
+            * Renell Carpenter        
+
+* Profile: Chatter Free User
+    - Role : 
+        - Active Users
+            * Chatter Free User
