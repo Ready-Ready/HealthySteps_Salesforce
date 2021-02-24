@@ -50,18 +50,18 @@ After creating the user, look for **column H: Assigned Site(s)** in the user cre
         - Active Users
             * Carli Miller
 
-* Profile: HS Specialist
+* **Profile: HS Specialist**
     - Role :
         - Active Users
             * Catherine Warner
 
    - Role : HSS Specialist - Bri's Team
-    - Active Users
-        * Rickisha Parrott
-        * Maggie McGaw
-        * Meghann Wilkens
-        * Cara Medina
-        * Jenny Sellars
+        - Active Users
+            * Rickisha Parrott
+            * Maggie McGaw
+            * Meghann Wilkens
+            * Cara Medina
+            * Jenny Sellars
 
     - Role : HSS Specialist - Lori's Team
         - Active Users
