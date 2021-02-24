@@ -39,18 +39,21 @@ After creating the user, look for **column H: Assigned Site(s)** in the user cre
 
 ## List of Roles and Profile for active users in Salesforce org
 
-* Profile: Prenatal Navigation 
+* **Profile: Prenatal Navigation**
+
     - Role : Prenatal Navigation Supervisor
         - Active Users
             * Jacqueline Pippens
             * Mary Connor-Hill
 
-* Profile: HS Data Analyst (R/O)
+* **Profile: HS Data Analyst (R/O)**
+
     - Role : Healthy Steps Staff
         - Active Users
             * Carli Miller
 
 * **Profile: HS Specialist**
+
     - Role :
         - Active Users
             * Catherine Warner
@@ -72,7 +75,8 @@ After creating the user, look for **column H: Assigned Site(s)** in the user cre
             * Ilene Fisher
             * Jennifer Byrd
 
-* Profile: HS Supervisor
+* **Profile: HS Supervisor**
+
     - Role :
         - Active Users
             * Stella Lewallen
@@ -86,7 +90,7 @@ After creating the user, look for **column H: Assigned Site(s)** in the user cre
         - Active Users
             * Lori Pelletier
 
-* Profile: System Administrator
+* **Profile: System Administrator**
     - Role : 
         - Active Users
             * Lonnie Richardson
@@ -100,7 +104,7 @@ After creating the user, look for **column H: Assigned Site(s)** in the user cre
         - Active Users
             * Renell Carpenter        
 
-* Profile: Chatter Free User
+* **Profile: Chatter Free User**
     - Role : 
         - Active Users
             * Chatter Free User
