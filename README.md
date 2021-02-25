@@ -37,7 +37,7 @@ After creating the user, look for **column H: Assigned Site(s)** in the user cre
 
 ---
 
-## List of Roles and Profile for active users in Salesforce org
+## List of Roles, Profile and public group for active users in Salesforce org
 
 * **Profile: Prenatal Navigation**
 
@@ -60,35 +60,35 @@ After creating the user, look for **column H: Assigned Site(s)** in the user cre
 
    - Role : HSS Specialist - Bri's Team
         - Active Users
-            * Rickisha Parrott
-            * Maggie McGaw
-            * Meghann Wilkens
-            * Cara Medina
-            * Jenny Sellars
+            * Rickisha Parrott [TAPM - Wendover]
+            * Maggie McGaw [Wake Forest - Quaker Lane]
+            * Meghann Wilkens [Wake Forest - Premier]
+            * Cara Medina [Wake Forest - Greensboro]
+            * Jenny Sellars [TAPM - Commerce,TAPM - Wendover]
 
     - Role : HSS Specialist - Lori's Team
-        - Active Users
-            * Quirina Vallejos
-            * Farkhanda Hussain
-            * Robin Hartzman
-            * Melissa Garrison
-            * Ilene Fisher
-            * Jennifer Byrd
+        - Active Users 
+            * Quirina Vallejos [Cone]
+            * Farkhanda Hussain [Cone]
+            * Robin Hartzman [GRO Peds]
+            * Melissa Garrison [GRO Peds]
+            * Ilene Fisher [Carolina Peds]
+            * Jennifer Byrd [Pied Peds]
 
 * **Profile: HS Supervisor**
 
     - Role :
-        - Active Users
-            * Stella Lewallen
-            * Sebrina Cooke-Davis
+        - Active Users 
+            * Stella Lewallen [Wake Forest - Greensboro]
+            * Sebrina Cooke-Davis [Wake Forest - Premier,Wake Forest - Quaker Lane]
 
     - Role : HSS Supervisor - Bri
         - Active Users
-            * Brianna White
+            * Brianna White [TAPM - Commerce, TAPM - Wendover,Wake Forest - Greensboro, Wake Forest - Premier,Wake Forest - Quaker Lane]
 
     - Role : HSS Supervisor - Lori
         - Active Users
-            * Lori Pelletier
+            * Lori Pelletier [Carolina Peds, Cone, GRO Peds, Pied Peds]
 
 * **Profile: System Administrator**
     - Role : 
@@ -108,3 +108,64 @@ After creating the user, look for **column H: Assigned Site(s)** in the user cre
     - Role : 
         - Active Users
             * Chatter Free User
+
+---
+
+### Object Permissions based on Profile
+
+
+* **Profile: Prenatal Navigation**
+
+   - Object : Consent  (Prenatal) [Read, Create, Edit]
+   - Object : Navigation [Read, Create, Edit]
+   - Object : Persons [Read, Create, Edit]
+   - Object : Programs [Read, Create, Edit]
+   - Object :Referrals (Prenatal) [Read, Create, Edit]
+   - Object :Screenings (Prenatal) [Read, Create, Edit]
+   - Object :Touchpoints [Read, Create, Edit]
+   - Object :Needs (Navigation Person) [Read, Create, Edit]
+
+
+
+
+* **Profile: HS Data Analyst (R/O)**
+
+    - Object : Children [Read, View All]
+    - Object : HS Consents [No Access]
+    - Object : Needs [No Access]
+    - Object : HS Referrals [Read]
+    - Object : HS Screenings [No Access]
+    - Object : Tier [Read]
+    - Object : Topics [No Access]
+    - Object : Visit [Read]
+    - Object : Visit Caregivers [No Access]
+
+
+
+* **Profile: HS Specialist**
+
+    - Object : Children [Read, Create, Edit]
+    - Object : HS Consents [Read, Edit]
+    - Object : Needs [Read, Create, Edit, Delete]
+    - Object : HS Referrals [Read, Create, Edit]
+    - Object : HS Screenings [Read, Create, Edit, Delete]
+    - Object : Tier [Read, Create, Edit]
+    - Object : Topics [Read, Create, Edit, Delete]
+    - Object : Visit [Read, Create, Edit]
+    - Object : Visit Caregivers [Read, Create, Edit]
+
+* **Profile: HS Supervisor**
+ 
+    - Object : Children [Read, Create, Edit, Delete]
+    - Object : HS Consents [Read, Edit]
+    - Object : Needs [Read, Create, Edit, Delete]
+    - Object : HS Referrals [Read, Create, Edit, Delete]
+    - Object : HS Screenings [Read, Create, Edit, Delete]
+    - Object : Tier [Read, Create, Edit, Delete]
+    - Object : Topics [Read, Create, Edit, Delete]
+    - Object : Visit [Read, Create, Edit, Delete]
+    - Object : Visit Caregivers [Read, Create, Edit, Delete]
+
+
+
+
