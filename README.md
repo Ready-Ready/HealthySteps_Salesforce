@@ -12,12 +12,12 @@ This document contains the user stories for tier design [Healthy Steps user stor
 
 - When a new user is to be added in Salesforce, new user creation request for the CHS org will be raised by Brianna White [HS Supervisor]
 - Brianna will add the details of the user to the “Users 2021.02.01.xlsx” google sheet
-- Once the user details are added, Coastal Cloud and Ready for School, Ready for Life teams will be notified through an email for adding new user 
-- The email will be received by Renell Carpenter [System Administrator] from Coastal Cloud and Karthik Dhakshanamoorthy [System Administrator] from Ready for School, Ready for Life
+- Once the user details are added, Ready for School, Ready for Life team will be notified through an email for adding new user 
+- The email will be received by Karthik Dhakshanamoorthy [System Administrator] from Ready for School, Ready for Life
 - Before new user is created please make sure final approval is received from Sebrina Cooke-Davis [HS Supervisor] 
 - After the approval is received Karthik Dhakshanamoorthy [System Administrator] from Ready for School, Ready for Life is responsible to create new user in salesforce
 - While user is created user needs to be assiged to a **Public Group**, this information is present in **User google sheet** in **Column H**
-- Later Costal team and CHS team will be notified via email for user being sucessfully added to salesforce
+- Later Renell Carpenter [System Administrator] from Costal Cloud team, Leonard Lawson [System Administrator] from Ready for School, Ready for Life, New User, Brianna White [HS Supervisor] and Sebrina Cooke-Davis [HS Supervisor] from CHS team will be notified via email for user being sucessfully added to salesforce
 
 [Users 2021.02.01.xlsx](https://drive.google.com/file/d/1xtjNl_JpCd3_q6VKzQqQvx9oshu2eCDW/view?usp=sharing)
 
@@ -44,32 +44,31 @@ After creating the user, look for **column H: Assigned Site(s)** in the user cre
 
 ## Reporting Process for CHS Org
 
-* The Coastal Cloud and Ready for School, Ready for Life team will meet CHS team before every release
+* From Coastal Cloud Renell Carpenter [System Administrator] and Karthik Dhakshanamoorthy [System Administrator] from Ready for School, Ready for Life team will meet Brianna White [HS Supervisor] and her team from CHS before every release
 * In this meeting they would decide on which report needs go live during the release and what changes are to be made to the reports
 * Reporting changes for the CHS Org will be present in the “[Healthy Steps Training Questions and Issues](https://docs.google.com/spreadsheets/d/1OAtKurnNtY1CRnZjzmncgD871txoP8UfCS30avWsr3s/edit?usp=sharing)” file under “**Report Priorities**” tab
-* The report which needs to be modified will be marked as “**1**” on the “**Priority Ranking**” column
+* The report which needs to be modified will be given a serial number based on release in the “**Priority Ranking**” column
 * The details regarding the modifications will be present in the “Notes” column
 * An issue will be created for each reporting requirement (points discussed during the meeting) on the “**HealthySteps_Salesforce**” repository in GitHub
 * The issue will be pulled under the “In Progress” column in the “HealthySteps Salesforce” Project
 * The reports will then be created/modified in Salesforce and saved under the respective Report folders
 * Once done, the task card will be moved to the “Done” column
 * On the day of the relase the report changes will be moved form Sandbox to Production environment
-* CHS will come to know about the changes when release is made
-
+* CHS team i.e. Brianna White [HS Supervisor] and her team will come to know about the changes in the release notes when release is made 
 ---
 
 ## Change request Process for CHS Org
 
-* Any changes to be made is loged as issue in **Healthy Steps Training Questions and Issues** google sheet by CHS team 
+* Any changes to be made is loged as issue in **Healthy Steps Training Questions and Issues** google sheet by Brianna White [HS Supervisor] and her team from CHS
 * What changes are to be made in the CHS Org will be listed in the “[Healthy Steps Training Questions and Issues](https://docs.google.com/spreadsheets/d/1OAtKurnNtY1CRnZjzmncgD871txoP8UfCS30avWsr3s/edit?usp=sharing)” file under “**Issue Log**” tab
-* Costal Cloud team goes through the issues, analyze them 
+* From Costal Cloud team Renell Carpenter [System Administrator] and her team goes through the issues, analyze them 
 * Based on the priority the issues, when issues will be realsed is decided 
 * For each issue a user story is generated, to undestand exactly what is expected as a result or outcome
 * Then issue will be created for each change requirement on the “**HealthySteps_Salesforce**” repository in GitHub
 * The issue will be pulled under the “In Progress” column in the “HealthySteps Salesforce” Project
 * Once done, the task card will be moved to the “Done” column
 * On the day of the relase the changes will be moved form Sandbox to Production environment
-* CHS will come to know about the changes in the release notes when release is made 
+* CHS team i.e. Brianna White [HS Supervisor] and her team will come to know about the changes in the release notes when release is made 
 ---
 
 ## List of Roles, Profile and public group for active users in Salesforce org
