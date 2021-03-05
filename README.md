@@ -1,5 +1,9 @@
 # HealthySteps_Salesforce
 
+## HS User Stories for Tier design
+
+[Healthy Steps user stories for tier design.xlsx] (https://docs.google.com/spreadsheets/d/1Q1oL22wHUOB-HAUIbnVGz8z4E7R4S-XAE6wOGSvMeFs/edit?usp=sharing)
+
 ## Salesforce User Creation Document
 
 <p> A new user creation request for the CHS org will be raised by Brianna White. The details of the user will be added to the “Users 2021.02.01.xlsx” google sheet. Once the user details are added, Coastal Cloud and Ready for School, Ready for Life teams will be notified through an email. Final approval will be provided by Sebrina Cooke-Davis. </p>
