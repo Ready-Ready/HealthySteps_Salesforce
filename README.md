@@ -4,9 +4,18 @@
 
 This document contains the user stories for tier design [Healthy Steps user stories for tier design.xlsx](https://docs.google.com/spreadsheets/d/1Q1oL22wHUOB-HAUIbnVGz8z4E7R4S-XAE6wOGSvMeFs/edit?usp=sharing)
 
+---
+
 ## Salesforce User Creation Document
 
-<p> A new user creation request for the CHS org will be raised by Brianna White. The details of the user will be added to the “Users 2021.02.01.xlsx” google sheet. Once the user details are added, Coastal Cloud and Ready for School, Ready for Life teams will be notified through an email. Final approval will be provided by Sebrina Cooke-Davis. </p>
+- When a new user is to be added in Salesforce, new user creation request for the CHS org will be raised by Brianna White [HS Supervisor]
+- Brianna will add the details of the user to the “Users 2021.02.01.xlsx” google sheet
+- Once the user details are added, Coastal Cloud and Ready for School, Ready for Life teams will be notified through an email for adding new user 
+- The email will be received by Renell Carpenter [System Administrator] from Coastal Cloud and Karthik Dhakshanamoorthy [System Administrator] from Ready for School, Ready for Life
+- Before new user is created please make sure final approval is received from Sebrina Cooke-Davis [HS Supervisor] 
+- After the approval is received Karthik Dhakshanamoorthy [System Administrator] from Ready for School, Ready for Life is responsible to create new user in salesforce
+- While user is created user needs to be assiged to a **Public Group**, this information is present in **User google sheet** in **Column H**
+- Later Costal team and CHS team will be notified via email for user being sucessfully added to salesforce
 
 [Users 2021.02.01.xlsx](https://drive.google.com/file/d/1xtjNl_JpCd3_q6VKzQqQvx9oshu2eCDW/view?usp=sharing)
 
