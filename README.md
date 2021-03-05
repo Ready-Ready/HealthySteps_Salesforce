@@ -53,14 +53,23 @@ After creating the user, look for **column H: Assigned Site(s)** in the user cre
 * The issue will be pulled under the “In Progress” column in the “HealthySteps Salesforce” Project
 * The reports will then be created/modified in Salesforce and saved under the respective Report folders
 * Once done, the task card will be moved to the “Done” column
+* On the day of the relase the report changes will be moved form Sandbox to Production environment
 * CHS will come to know about the changes when release is made
 
 ---
 
 ## Change request Process for CHS Org
 
-
-
+* Any changes to be made is loged as issue in **Healthy Steps Training Questions and Issues** google sheet by CHS team 
+* What changes are to be made in the CHS Org will be listed in the “[Healthy Steps Training Questions and Issues](https://docs.google.com/spreadsheets/d/1OAtKurnNtY1CRnZjzmncgD871txoP8UfCS30avWsr3s/edit?usp=sharing)” file under “**Issue Log**” tab
+* Costal Cloud team goes through the issues, analyze them 
+* Based on the priority the issues, when issues will be realsed is decided 
+* For each issue a user story is generated, to undestand exactly what is expected as a result or outcome
+* Then issue will be created for each change requirement on the “**HealthySteps_Salesforce**” repository in GitHub
+* The issue will be pulled under the “In Progress” column in the “HealthySteps Salesforce” Project
+* Once done, the task card will be moved to the “Done” column
+* On the day of the relase the changes will be moved form Sandbox to Production environment
+* CHS will come to know about the changes in the release notes when release is made 
 ---
 
 ## List of Roles, Profile and public group for active users in Salesforce org
