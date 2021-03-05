@@ -8,6 +8,8 @@ This document contains the user stories for tier design [Healthy Steps user stor
 
 ## Salesforce User Creation Document
 
+### User creation process in CHS Org
+
 - When a new user is to be added in Salesforce, new user creation request for the CHS org will be raised by Brianna White [HS Supervisor]
 - Brianna will add the details of the user to the “Users 2021.02.01.xlsx” google sheet
 - Once the user details are added, Coastal Cloud and Ready for School, Ready for Life teams will be notified through an email for adding new user 
@@ -18,6 +20,8 @@ This document contains the user stories for tier design [Healthy Steps user stor
 - Later Costal team and CHS team will be notified via email for user being sucessfully added to salesforce
 
 [Users 2021.02.01.xlsx](https://drive.google.com/file/d/1xtjNl_JpCd3_q6VKzQqQvx9oshu2eCDW/view?usp=sharing)
+
+---
 
 ### Steps to add a user in Salesforce:
 
@@ -40,13 +44,22 @@ After creating the user, look for **column H: Assigned Site(s)** in the user cre
 
 ## Reporting Process for CHS Org
 
-* Reporting changes for the CHS Org will be present in the “[Healthy Steps Training Questions and Issues](https://docs.google.com/spreadsheets/d/1OAtKurnNtY1CRnZjzmncgD871txoP8UfCS30avWsr3s/edit?usp=sharing)” file under “**Report Priorities**” tab.
-* The report which needs to be modified will be marked as “**1**” on the “**Priority Ranking**” column.
-* The details regarding the modifications will be present in the “Notes” column.
-* An issue will be created for each reporting requirement on the “**HealthySteps_Salesforce**” repository in GitHub.
-* The issue will be pulled under the “In Progress” column in the “HealthySteps Salesforce” Project.
-* The reports will then be created/modified in Salesforce and saved under the respective Report folders.
-* Once done, the task card will be moved to the “Done” column.
+* The Coastal Cloud and Ready for School, Ready for Life team will meet CHS team before every release
+* In this meeting they would decide on which report needs go live during the release and what changes are to be made to the reports
+* Reporting changes for the CHS Org will be present in the “[Healthy Steps Training Questions and Issues](https://docs.google.com/spreadsheets/d/1OAtKurnNtY1CRnZjzmncgD871txoP8UfCS30avWsr3s/edit?usp=sharing)” file under “**Report Priorities**” tab
+* The report which needs to be modified will be marked as “**1**” on the “**Priority Ranking**” column
+* The details regarding the modifications will be present in the “Notes” column
+* An issue will be created for each reporting requirement (points discussed during the meeting) on the “**HealthySteps_Salesforce**” repository in GitHub
+* The issue will be pulled under the “In Progress” column in the “HealthySteps Salesforce” Project
+* The reports will then be created/modified in Salesforce and saved under the respective Report folders
+* Once done, the task card will be moved to the “Done” column
+* CHS will come to know about the changes when release is made
+
+---
+
+## Change request Process for CHS Org
+
+
 
 ---
 
