@@ -2,7 +2,7 @@
 
 ## HS User Stories for Tier design
 
-[Healthy Steps user stories for tier design.xlsx] (https://docs.google.com/spreadsheets/d/1Q1oL22wHUOB-HAUIbnVGz8z4E7R4S-XAE6wOGSvMeFs/edit?usp=sharing)
+This document contains the user stories for tier design [Healthy Steps user stories for tier design.xlsx](https://docs.google.com/spreadsheets/d/1Q1oL22wHUOB-HAUIbnVGz8z4E7R4S-XAE6wOGSvMeFs/edit?usp=sharing)
 
 ## Salesforce User Creation Document
 
